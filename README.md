@@ -45,11 +45,12 @@ def test_duplicate_booking(booking_system):
     with pytest.raises(ValueError, match="Slot already booked"):
         booking_system.book("Bob", "10AM")
 
-#📦 How to Run
+## 🚀 How to Run
 
-1.Clone the repository:
+1.Clone Resporitory
 git clone https://github.com/Durgarao3/Booking-System-with-Pytest-Automation.git
 cd Booking-System-with-Pytest-Automation
+
 
 2.Install dependencies:
 pip install pytest
